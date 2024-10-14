@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+header{
+    justify-content: space-between;
+    background-color: #1C1E53;
+    display: flex;
+    padding: 20px 80px;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    gap: 15px;
+}
+header ul li a{
+    color: grey;
+}
+header button{
+    background-color: #1C1E53;
+    border: solid 2px #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+}
+.ul_btns{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.home_ul a{
+    color: #FFFFFF;
+}
+.design{
+    padding: 100px;
+    display: flex;
+    gap: 150px;
+    color: #282938;
+}
+.design .text h1{
+    margin-top: 20px;
+}
+.design .text p{
+    margin-top: 20px;
+    line-height: 23px;
+}
+.goal{
+    background-color: #F4F5F5;
+    width: 1200px;
+    margin-left: 70px;
+}
+.goal .text{
+    display: flex;
+    gap: 150px;
+    padding: 50px;
+}
+.goal img{
+    width: 1200px;
+}
+.follow{
+    padding: 100px;
+}
+.follow h1{
+    text-align: center;
+    color: #282938;
+}
+.btn1{
+    background-color: #2405F2;
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+}
+.btn2{
+    background-color: white;
+    border: none;
+    align-items: center;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.btns{
+    align-items: center;
+}
+.follow .cards .card h2{
+    margin-top: 10px;
+    color: #282938;
+}
+.follow .cards .card p{
+    margin-top: 10px;
+    line-height: 23px;
+    color: #282938;
+}
+.follow .cards{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.mission{
+    padding: 100px;
+    background-color: #EEF4FA;
+}
+.mission .card1{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.mission .card2{
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+    align-items: center;
+}
+.mission .text h1{
+    margin-top: 15px;
+}
+.mission .text p{
+    margin-top: 15px;
+}
+.benifits{
+    padding: 100px;
+    color: #282938;
+}
+.home_h1{
+    text-align: center;
+}
+.benifits .cards{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    margin-left: 25px;
+}
+.benifits .cards .card{
+    background-color: #F4F6FC;
+    padding: 30px;
+    width: 285px;
+    height: 200px;
+}
+.benifits .cards .card h3{
+    margin-top: 15px;
+}
+.benifits .cards .card p{
+    margin-top: 15px;
+    line-height: 23px;
+}
+.benifits .img_text1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.team{
+    background-color: #F4F6FC;
+    padding: 100px;
+    color: #282938;
+}
+.team h1{
+    text-align: center;
+}
+.team .cards .card{
+    background-color: white;
+    width: 200px;
+    height: 250px;
+}
+.team .cards{
+    display: flex;
+    gap: 30px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+.team .cards .card img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.team .cards .card h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.team .cards .card p{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.talk{
+    background-color: #1C1E53;
+    display: flex;
+    color: white;
+    gap: 200px;
+    padding: 100px;
+    height: 136px;
+}
+.p_{
+    color: #F4F6FC;
+    margin-top: 15px;
+}
+.talk .email{
+    display: flex;
+    margin-top: 50px;
+    background-color: #FCD980;
+    color: black;
+    padding: 30px;
+    gap: 30px;
+}
+.p_2{
+    margin-top: 20px;
+    color: #F4F6FC;
+}
+.i_ i{
+    color: #F4F6FC;
+    margin-top: 20px;
+}
+footer{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    color: #1C1E53;
+}
+footer ul{
+    display: flex;
+    gap: 20px;
+}

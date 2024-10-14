@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+header{
+    justify-content: space-between;
+    background-color: #1C1E53;
+    display: flex;
+    padding: 20px 80px;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    gap: 15px;
+}
+header ul li a{
+    color: grey;
+}
+header button{
+    background-color: #1C1E53;
+    border: solid 2px #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+}
+.home_ul a{
+    color: #FFFFFF;
+}
+.ul_btns{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.home{
+    background-color: #1C1E53;
+    height: 300px;
+    padding: 80px 50px;
+    display: flex;
+}
+.home h1{
+    color: white;
+    line-height: 40px;
+}
+.home p{
+    color: #FFFFFF;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.home .btn2{
+    background-color: #1C1E53;
+    border: none;
+    width: 200px;
+    padding: 30px 20px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.btn{
+    background-color: #FCD980;
+    border: none;
+    width: 160px;
+    padding: 13px 20px;
+    border-radius: 20px;
+}
+.imgs img{
+    margin-left: 100px;
+    height: 290px;
+}
+.work{
+    padding: 100px 100px;
+    background-color: #F4F6FC;
+    height: 350px;
+    display: flex;
+}
+.work .text h1{
+    color: #282938;
+    font-size: 45px;
+}
+.work .text p{
+    color: #282938;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.work h4{
+    margin-top: 20px;
+    color: #2405F2;
+}
+.cards{
+    margin-left: 200px;
+}
+.cards1{
+    display: flex;
+    gap: 50px;
+}
+.cards2{
+    display: flex;
+    margin-top: 30px;
+    gap: 50px;
+}
+.card h1{
+    color: #282938;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.card p{
+    color: #282938;
+    margin-top: 15px;
+    line-height: 25px;
+}
+.projects{
+    display: flex;
+    gap: 100px;
+    margin-left: 430px;
+}
+.home1{
+    display: flex;
+    padding: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+.projects .text1{
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    width: 280px;
+    height: 463px;
+    position: absolute;
+}
+.img1{
+    margin-left: -363px;
+}
+.projects .text1{
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+.projects .text1 h1{
+    margin-top: 200px;
+    font-size: 22px;
+}
+.projects .text1 .view{
+    color: #FCD980;
+    margin-top: 50px;
+}
+.p_1{
+    margin-top: 20px;
+}
+.projects .text1{
+    padding-left: 40px;
+}
+.projects img{
+    width: 650px;
+}
+.projects .text2{
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    width: 350px;
+    height: 100px;
+    padding: 50px;
+}
+.projects .text2 h1{
+    font-size: 22px;
+    margin-top: 40px;
+}
+.projects .text2 img{
+    width: 450px;
+    height: 200px;
+    margin-top: 70px;
+    margin-left: -50px;
+}
+.design{
+    background-color: #F4F6FC;
+    padding: 100px;
+    margin-top: 300px;
+    color: #282938;
+}
+.design_p{
+    text-align: center;
+}
+.design_h1{
+    text-align: center;
+}
+.card_1{
+    background-color: #FFFFFF;
+    padding: 20px 30px;
+    width: 282px;
+    height: 200px;
+}
+.card_1 h3{
+    margin-top: 20px;
+    color: #282938;
+}
+.card_1 p{
+    color: #282938;
+    margin-top: 15px;
+}
+.cards_3{
+    display: flex;
+    gap: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.about_us{
+    padding: 100px;
+    color: #282938;
+    display: flex;
+    gap: 200px;
+    background-color: #F4F6FC;
+}
+.about_us .text_2 .text_3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:30px;
+}
+.about_us .text_2 .text_3 img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.about_us .text_2 .text_3 .text_1{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.about_us .text_2 .text_3 .text_2 button{
+    border: none;
+    border-radius: 50%;
+    margin-left: 20px;
+    background-color: white;
+    color: grey;
+    padding: 12px;
+}
+.about_us .text_2 .text_3 .text_2 .btn1{
+    background-color: #5239FA;
+    color: white;
+}
+.frequntly{
+    display: flex;
+    color: #282938;
+    gap: 150px;
+    padding: 100px;
+}
+.h3_h3{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+.h3_h3 .h3_1 h3{
+    color: #2405F2;
+}
+.frequntly .card1 p{
+    color: #2405F2;
+    margin-top: 20px;
+}
+.img_big img{
+    width: 1000px;
+    margin-left: 150px;
+}
+.blog{
+    padding: 100px;
+    color: #282938;
+}
+.blog .card_1_ img{
+    margin-top: 50px;
+    width: 350px;
+}
+.blog .card_1_ p{
+    margin-top: 20px;
+}
+.blog .card_1_ h3{
+    margin-top: 20px;
+}
+.blog .card_1_ h4{
+    margin-top: 20px;
+}
+.cards_{
+    display: flex;
+    gap: 50px;
+}
+.talk{
+    background-color: #1C1E53;
+    display: flex;
+    color: white;
+    gap: 200px;
+    padding: 100px;
+    height: 136px;
+}
+.p_{
+    color: #F4F6FC;
+    margin-top: 15px;
+}
+.talk .email{
+    display: flex;
+    margin-top: 50px;
+    background-color: #FCD980;
+    color: black;
+    padding: 30px;
+    gap: 30px;
+}
+.p_2{
+    margin-top: 20px;
+    color: #F4F6FC;
+}
+.i_ i{
+    color: #F4F6FC;
+    margin-top: 20px;
+}
+footer{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    color: #1C1E53;
+}
+footer ul{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
